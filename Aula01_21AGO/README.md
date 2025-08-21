@@ -18,3 +18,8 @@
 ### Aula Sobre Recursão
 
 * [Slides prof. Francisco](./Aula2-Recursao.pdf) (Recursão)
+
+
+### Notações O, Omega e Theta
+
+<img src="./notacao-big-o.png" width="100%">
