@@ -17,35 +17,35 @@ A notação **Big-O** descreve um **limite superior assintótico** para o cresci
 
 ## Definição Formal
 
-Dizemos que uma função \( f(n) \) é **O(g(n))** se existem **constantes positivas** \( c > 0 \) e \( n_0 \geq 1 \) tais que:
+Dizemos que uma função $f(n)$ é **$O(g(n))$** se existem **constantes positivas** $c > 0$ e $n_0 \geq 1$ tais que:
 
-\[
+$$
 0 \leq f(n) \leq c \cdot g(n), \quad \forall n \geq n_0
-\]
+$$
 
 ### Interpretação
 
-- \( f(n) \) é a função real de custo/tempo do algoritmo.
-- \( g(n) \) é a função de referência que descreve o crescimento esperado.
-- \( c \) é um fator constante que multiplica \( g(n) \) para garantir que ele sempre seja um limite superior para \( f(n) \) a partir de \( n_0 \).
-- \( n_0 \) é o ponto a partir do qual a desigualdade é sempre válida.
+- $f(n)$ é a função real de custo/tempo do algoritmo.  
+- $g(n)$ é a função de referência que descreve o crescimento esperado.  
+- $c$ é um fator constante que multiplica $g(n)$ para garantir que ele sempre seja um limite superior para $f(n)$ a partir de $n_0$.  
+- $n_0$ é o ponto a partir do qual a desigualdade é sempre válida.
 
 ### Exemplo
 
-Se \( f(n) = 5n^2 + 3n + 10 \), podemos provar que:
+Se $f(n) = 5n^2 + 3n + 10$, podemos provar que:
 
-\[
+$$
 f(n) \leq 6n^2, \quad \forall n \geq 1
-\]
+$$
 
-Portanto, \( f(n) \) é **O(n²)**.
+Portanto, $f(n)$ é **$O(n^2)$**.
 
 ---
 
 ## Intuição
 
-- Big-O **ignora constantes e termos menos significativos**, pois eles se tornam irrelevantes para \( n \to \infty \).
-- Representa um **limite superior**, ou seja, a complexidade não crescerá mais rápido do que \( g(n) \) dentro de um fator constante.
+- Big-O **ignora constantes e termos menos significativos**, pois eles se tornam irrelevantes para $n \to \infty$.  
+- Representa um **limite superior**, ou seja, a complexidade não crescerá mais rápido do que $g(n)$ dentro de um fator constante.
 
 
 ---
