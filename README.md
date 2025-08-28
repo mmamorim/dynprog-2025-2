@@ -9,3 +9,5 @@
 --- 
 
 * [Aula 01](./Aula01_21AGO/) (21/08) - Conhecendo a turma
+* [Aula 02](./Aula02_28AGO/) (28/08) - Crescimento assintótico de funções
+
