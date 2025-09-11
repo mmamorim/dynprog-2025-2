@@ -11,5 +11,6 @@
 * [Aula 01](./Aula01_21AGO/) (21/08) - Conhecendo a turma
 * [Aula 02](./Aula02_28AGO/) (28/08) - Crescimento assintótico de funções
 * [Aula 03](./Aula03_04SET/) (04/09) - Recursão - A Revanche!
+* [Aula 04](./Aula04_11SET/) (11/09) - Memoização em Funções Recursivas
 
 
