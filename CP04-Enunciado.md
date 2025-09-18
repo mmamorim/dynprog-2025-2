@@ -127,6 +127,6 @@ def vence(n: int) -> bool:
 2. O repositório do github deverá conter um arquivo ```readme.md``` informando todos os integrantes do grupo (RA e NOME COMPLETO).  
 3. O Checkpoint poderá ser realizado em grupo de até 4 integrantes.
 4. A entrega deverá ser feita por apenas um integrante do grupo.
-5. O prazo para entrega é 17/09.
+5. O prazo para entrega é 22/09.
 
 > QUE A FORÇA DA RECURSÃO ESTEJA COM TODOS!
