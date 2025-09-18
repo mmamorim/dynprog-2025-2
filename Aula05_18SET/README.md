@@ -42,9 +42,8 @@ Dado um valor **N** e um conjunto de moedas **[m1, m2, ..., mk]**, de quantas fo
 
 #### Recorrência
 
-$$
-contaTroco(n, i) = contaTroco(n - moedas[i], i) + contaTroco(n, i+1)
-$$
+**contaTroco**(n, i) = **contaTroco**(n - moedas[i], i) + **contaTroco**(n, i+1)
+
 
 #### Casos Base
 - Se **n == 0** → existe **1 forma** (encontramos uma solução válida).  
