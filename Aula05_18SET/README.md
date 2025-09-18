@@ -64,7 +64,7 @@ def formas_troco(n, moedas, i=0):
     if n < 0 or i >= len(moedas):
         return 0
     # Usando a moeda atual + ignorando a moeda atual
-    return formas_troco(n - moedas[i], moedas, i) + formas_troco(n, moedas,+1)
+    return formas_troco(n - moedas[i], moedas, i) + formas_troco(n, moedas,i+1)
 ~~~
 
 ### O que acontece se eu pedir troco de 100 reais?
