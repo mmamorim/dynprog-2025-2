@@ -43,7 +43,7 @@ Dado um valor **N** e um conjunto de moedas **[m1, m2, ..., mk]**, de quantas fo
 #### Recorrência
 
 $$
-conta\_troco(n, i) = conta\_troco(n - moedas[i], i) + conta\_troco(n, i+1)
+contaTroco(n, i) = contaTroco(n - moedas[i], i) + contaTroco(n, i+1)
 $$
 
 #### Casos Base
