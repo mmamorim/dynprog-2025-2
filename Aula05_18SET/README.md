@@ -50,22 +50,6 @@ Dado um valor **N** e um conjunto de moedas **[m1, m2, ..., mk]**, de quantas fo
 - Se **n < 0** ou **i >= número de moedas** → existe **0 formas** (não há solução).  
 
 
-## 🌳 Visualização da Árvore de Chamadas
-Exemplo: `conta_troco(5, 0)` com moedas `[1,2,5]`
-
-conta_troco(5, 0) # moedas = [1,2,5]
-
-> ├── Usando moeda[0] = 1 → conta_troco(4, 0)
-> │ ├── Usando moeda[0] = 1 → conta_troco(3, 0)
-> │ │ ├── Usando moeda[0] = 1 → conta_troco(2, 0)
-> │ │ │ ├── Usando moeda[0] = 1 → conta_troco(1, 0)
-> │ │ │ │ ├── Usando moeda[0] = 1 → conta_troco(0, 0) ✅ (1 forma!)
-> │ │ │ │ └── Ignorando moeda[0] → conta_troco(1, 1) ...
-> │ │ │ └── Ignorando moeda[0] → conta_troco(2, 1) ...
-> │ │ └── Ignorando moeda[0] → conta_troco(3, 1) ...
-> │ └── Ignorando moeda[0] → conta_troco(4, 1) ...
-> └── Ignorando moeda[0] → conta_troco(5, 1)
-
 
 ---
 
