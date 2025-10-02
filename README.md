@@ -13,3 +13,5 @@
 * [Aula 03](./Aula03_04SET/) (04/09) - Recursão - A Revanche!
 * [Aula 04](./Aula04_11SET/) (11/09) - Memoização em Funções Recursivas
 * [Aula 05](./Aula05_18SET/) (18/09) - Memoização - A Revanche!
+* [Aula 06](./Aula06_25SET/) (25/09) - FOLGA
+* [Aula 07](./Aula07_02OUT/) (02/10) - Moedas (Troco) - O Retorno
