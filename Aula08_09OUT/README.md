@@ -77,7 +77,22 @@ Para `N = 6` e moedas `[1, 3, 4]`:
 - Ótima solução é `3 + 3` → total 2 moedas.  
 
 ---
+~~~py
+def qtdeMoedas(valor,moedas):
+    moedas.sort(reverse=True)
+    qtde,pos = 0, 0
+    while valor > 0:
+        if valor >= moedas[pos]:
+            qtde += 1
+            valor = valor - moedas[pos]
+        else:
+            pos += 1
+    return qtde
+~~~
 
+~~~py
+print(qtdeMoedas(9,[1,3,4]))
+~~~
 ---
 
 # 🗣️ Complicando...
@@ -106,3 +121,19 @@ Esse método garante encontrar a **solução ótima**, mas pode ser extremamente
 ### Exemplo
 Para `N = 6` e moedas `[1, 3, 4]`:  
 O algoritmo vai testar todas as combinações possíveis de moedas até encontrar a solução mínima (neste caso: 2 moedas → `3 + 3`).  
+
+~~~py
+def qtdeMoedasRec(valor,moedas):
+    if valor == 0: return 0
+    qtdeM = float("inf")
+    for moeda in moedas:
+        #print("usando moeda ",moeda)
+        if valor >= moeda: 
+            qtde = qtdeMoedasRec(valor-moeda,moedas)
+            if qtde < qtdeM: qtdeM = qtde
+    return qtdeM + 1  
+~~~
+
+~~~py
+print(qtdeMoedasRec(30,[1,3,4,6]))
+~~~
