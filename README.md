@@ -16,3 +16,4 @@
 * [Aula 06](./Aula06_25SET/) (25/09) - FOLGA
 * [Aula 07](./Aula07_02OUT/) (02/10) - Moedas (Troco) - O Retorno
 * [Aula 08](./Aula08_09OUT/) (09/10) - Moedas (Troco) - Implementação em Aula
+* [Aula 09](./Aula09_16OUT/) (16/10) - Moedas (Troco) - Implementação em Aula

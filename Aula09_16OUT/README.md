@@ -1,44 +1,6 @@
 <img src="/assets/teste.svg" width="100%">
 
-# Aula 08 - 09/10 
-
----
-
-# RESUMÃO
-
-### Recursão
-- Resolver problemas quebrando-os em subproblemas menores.  
-- **Ex.:** Fibonacci, fatorial.  
-- **Vantagem:** clareza do código.  
-- **Desvantagem:** pode ser ineficiente.  
-
-### Otimização com Memoização
-- Guardar resultados já calculados (**cache**) para não recomputar.  
-- Aplica-se em recursões com subproblemas repetidos.  
-- **Ex.:** Fibonacci otimizado → O(n) em vez de O(2^n).  
-
-### Programação Dinâmica (PD)
-- Estratégia sistemática: resolver subproblemas menores e compor a solução.  
-- Pode ser:
-  - **Top-Down:** recursão + memoização.  
-  - **Bottom-Up:** tabela iterativa.  
-- **Usada em:** mochila, caminhos mínimos, alinhamento de sequências.  
-
-#### Qual a diferença entre Memoização x Programação Dinâmica (PD) ?
-> Memoização = recursivo + cache (top-down).
-> PD = iterativo + tabela (bottom-up).
-> **Ambos são programação dinâmica no sentido amplo, mas o estilo de implementação muda completamente.**
-
-### Heurísticas
-- Métodos aproximados quando solução exata é inviável (tempo/complexidade).  
-- Baseadas em:
-  - Regras práticas.  
-  - Busca local.  
-  - Algoritmos gulosos.  
-  - Metaheurísticas (ex.: algoritmos genéticos, simulated annealing).  
-
----
-
+# Aula 09 - 16/10 
 
 # ✨💰 O Desafio do Moedas 
 
