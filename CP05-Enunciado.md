@@ -7,7 +7,7 @@
 | ```DISCIPLINA:``` | DYNAMIC PROGRAMMING | ```PROFESSOR:``` | Marcelo Amorim |
 
 
-# ✨💰 O Desafio das Moedas 
+# ✨💰 O Desafio das Moedas  
 
 ---
 
