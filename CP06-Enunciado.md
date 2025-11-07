@@ -77,7 +77,7 @@ knapsack(pesos, valores, W) #Função iterativa estratégia gulosa
 knapsackRec(pesos, valores, W) #Função recursiva simples
 knapsackMemo(pesos, valores, W) #Função recursiva com memoização
 knapsackPD(pesos, valores, W) #Função usando Programação Dinâmica
-
+~~~
 
 ### Estrutura de Entrega e Documentação
 
